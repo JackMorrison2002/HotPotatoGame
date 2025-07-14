@@ -1,0 +1,44 @@
+<!-- Layout for Hot Potato Game Screen -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- Task Display -->
+    <TextView
+        android:id="@+id/textTask"
+        android:text="Ready to Start!"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"/>
+    <!-- Countdown Timer Display -->
+    <TextView
+        android:id="@+id/textTimer"
+        android:text="10"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/btnStart"
+        android:text="Start Round"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Pass Button (Hidden initially) -->
+    <Button
+        android:id="@+id/btnPass"
+        android:text="PASS!"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

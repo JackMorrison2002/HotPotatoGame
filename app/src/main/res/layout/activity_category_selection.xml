@@ -1,0 +1,66 @@
+<!-- res/layout/activity_category_selection.xml -->
+<!-- Parent Layout : vertical alignment, centered -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    android:padding="32dp">
+
+    <!-- Title Text-->
+    <TextView
+        android:text="🔥 Choose Your Category 🔥"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <!-- Category Buttons -->
+    <Button
+        android:id="@+id/btnParty"
+        android:text="🎉 Party Classic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnThinkers"
+        android:text="🧠 Quick Thinkers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnPhysical"
+        android:text="🏋️ Physical Dares"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnWild"
+        android:text="🤪 Wild Mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Exit Button -->
+    <Button
+        android:id="@+id/btnExit"
+        android:text="❌ Exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B00020"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
