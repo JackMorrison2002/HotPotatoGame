@@ -1,0 +1,21 @@
+
+---
+
+### 3) ToDoList — `README.md` (keep only if it’s more than a toy)
+```md
+# ToDo List
+CRUD to-dos with persistence and a clean UI. Good example of basic app architecture and validation.
+
+## ✨ Features
+- Create/update/delete tasks
+- Persist data (explain: SQLite/Room/File)
+- Filter by status; simple input validation
+
+## 🧱 Tech
+(Replace with your stack: Android/Java + Room OR C# + WinForms/EF)
+
+## 🚀 Run
+Steps to clone, restore deps, and run
+
+## 📄 License
+MIT
